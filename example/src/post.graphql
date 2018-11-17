@@ -1,0 +1,15 @@
+type Query {
+  posts: [Post]
+}
+
+type Post {
+  comments: [Comment]
+  id: ID!
+  text: String!
+  tags: [String]
+}
+
+type Comment {
+  id: ID!
+  text: String!
+}
