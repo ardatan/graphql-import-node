@@ -35,4 +35,4 @@ for ES2015 and TypeScript;
   makeExecutableSchema({ typeDefs, resolvers });
 ```
 
-It supports [https://github.com/prisma/graphql-import](GraphQL-Import) syntax and TypeScript.
+It supports [graphql-import](https://github.com/prisma/graphql-import) syntax and TypeScript.
