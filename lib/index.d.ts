@@ -11,3 +11,10 @@ declare module '*.gql' {
     const value: DocumentNode;
     export = value;
 }
+
+declare module '*.graphqls' {
+    import { DocumentNode } from 'graphql';
+
+    const value: DocumentNode;
+    export = value;
+}
