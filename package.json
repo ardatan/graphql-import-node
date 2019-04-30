@@ -1,7 +1,17 @@
 {
-    "private": true,
-    "workspaces": [
-        "lib",
-        "example"
-    ]
+  "name": "graphql-import-node",
+  "version": "0.0.3",
+  "main": "register.js",
+  "types": "register.d.ts",
+  "license": "MIT",
+  "scripts": {
+    "test": "mocha"
+  },
+  "devDependencies": {
+    "graphql": "14.2.1",
+    "mocha": "6.1.4"
+  },
+  "peerDependencies": {
+    "graphql": "*"
+  }
 }
