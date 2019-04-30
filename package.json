@@ -1,6 +1,6 @@
 {
   "name": "graphql-import-node",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "main": "register.js",
   "types": "register.d.ts",
   "license": "MIT",
