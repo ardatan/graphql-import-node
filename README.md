@@ -1,6 +1,6 @@
 # GraphQL Import Node
 
-This extension makes your NodeJS application able to import `graphql` files. It uses `require.extensions` to allow you to import/require from `.graphql` files in NodeJS environment.
+This extension makes your NodeJS application able to import `graphql` files. It uses `require.extensions` to allow you to import/require from `.graphql` files in NodeJS environment. The imported content will be a compiled version of the GraphQL string (`DocumentNode`).
 
 It needs to be installed `graphql` on the project. Then, you can install it using npm or yarn;
 
