@@ -4,6 +4,10 @@
   "main": "register.js",
   "types": "register.d.ts",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "ardatan/graphql-import-node"
+  },
   "scripts": {
     "test": "mocha"
   },
