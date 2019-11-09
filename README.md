@@ -44,6 +44,12 @@ If you are using TypeScript (with `ts-node` or `ts-node-dev`), make sure to add 
 ts-node -r graphql-import-node/register index.ts
 ```
 
+or to have typings for `*.graphql` files it'd better to add the import the library like below;
+
+```ts
+import 'graphql-import-node';
+```
+
 Now you should be able to do:
 
 ```ts
